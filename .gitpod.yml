@@ -1,0 +1,10 @@
+tasks:
+  - before: |
+      npm install -g http-server
+    init: |
+    command: |
+      chmod +x gitpod-init.sh && ./gitpod-init.sh
+ports:
+  - port: 8000
+  - port: 8080
+    onOpen: open-preview
