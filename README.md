@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/nightttide/T-Ether-Webapp/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/WillKopil/T-Ether-Web-App//)
 
 Using gitpod and github will make our work on this app much easier. I suggest you install the [Gitpod chrome extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki)
 
