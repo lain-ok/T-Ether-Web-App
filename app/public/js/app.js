@@ -8,3 +8,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoid2lsbGtvcGlsIiwiYSI6ImNsMHdrZG5oajFpMTUzam8yY3hjZjFocXoifQ.NjF0MCBzlL8nXxE0SUk5RQ'
 }).addTo(map);
+
+map.locate({setView: true, maxZoom: 16});
