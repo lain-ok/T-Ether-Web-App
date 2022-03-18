@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/WillKopil/T-Ether-Web-App//)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/WillKopil/T-Ether-Web-App/)
 
 Using gitpod and github will make our work on this app much easier. I suggest you install the [Gitpod chrome extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki)
 
@@ -16,6 +16,11 @@ http-server
 To stop or restart the server hit `ctrl + c` on the console. You will need to do this when you want to see the changes you made.
 
 Everything that we will be working is in the app/public folder. Here you will find your index.html, app.js, styles.css and anything else that is used in the final product.
+
+## About
+This project is By Brandon, Will, Daniel, and Malek
+
+This is change, that will made
 
 ## Notes on gitpod (Backend stuff)
 
