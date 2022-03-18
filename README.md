@@ -20,8 +20,6 @@ Everything that we will be working is in the app/public folder. Here you will fi
 ## About
 This project is By Brandon, Will, Daniel, and Malek
 
-This is change, that will made
-
 ## Notes on gitpod (Backend stuff)
 
 The first thing you should know is the `.gitpod.yml` will run all the commands listed when the computer starts
