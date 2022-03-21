@@ -1,12 +1,11 @@
-var map = L.map('map').setView([0, 0], 1);
+var map = L.map('map');
+        map.setView([51.2, 7], 9);
 
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1Ijoid2lsbGtvcGlsIiwiYSI6ImNsMHdrZG5oajFpMTUzam8yY3hjZjFocXoifQ.NjF0MCBzlL8nXxE0SUk5RQ'
-}).addTo(map);
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: 'Map data &copy; OpenStreetMap contributors'
+        }).addTo(map);
 
-map.locate({setView: true, maxZoom: 16});
+        var marker = L.marker([51.2, 7]).addTo(map);
+
+        var sidebar = L.control.sidebar('sidebar').addTo(map);
