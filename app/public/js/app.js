@@ -8,7 +8,7 @@ var map = L.map('map');
 
 var sidebar = L.control.sidebar('sidebar').addTo(map);
 
-var marker = L.marker([51.2, 7]).addTo(map);
+var marker = L.marker([45.420502, -75.704781]).addTo(map);
 
 function onLocationFound(e) {
         var radius = e.accuracy / 10;
