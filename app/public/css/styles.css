@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html, body, #map {
@@ -11,4 +12,8 @@ html, body, #map {
 .lorem {
     font-style: italic;
     color: #AAA;
+}
+
+#main-container {
+    height:100%;
 }
