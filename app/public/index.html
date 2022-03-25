@@ -36,6 +36,7 @@
     <div id="brand"><a href="/">T-ether</a></div>
     <nav>
         <ul class="top-nav">
+
             <li><a href="/home">Home</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/about">About</a></li>
@@ -51,6 +52,17 @@
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
             <ul role="tablist">
+                <li><a href="#Map"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill" viewBox="0 0 16 16">
+                    <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
+                  </svg> </a></li>
+                <li><a href="#Pin"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
+                    <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"/>
+                    <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"/>
+                  </svg> </a>
+                </li>
+                <li> <a href="#Pickup"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                  </svg> </a>   </li>
                 <li><a href="#Drops" role="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-droplet-fill" viewBox="0 0 16 16">
                     <path d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6ZM6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13Z"/>
                   </svg>   </a></li>
@@ -74,7 +86,19 @@
 
                     <span class="sidebar-close"><i class="fa fa-caret-left"></i></span>
             
+                      
             </div>
+            <div class="sidebar-pane" id="Map">
+                <h1 class="sidebar-header">Map<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>
+
+            <div class="sidebar-pane" id="Pin">
+                <h1 class="sidebar-header">Pins<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>   
+
+            <div class="sidebar-pane" id="Pickup">
+                <h1 class="sidebar-header">Pick-Ups<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            </div>   
 
             <div class="sidebar-pane" id="profile">
                 <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
