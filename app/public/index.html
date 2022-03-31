@@ -31,7 +31,7 @@
 </head>
 
 <body>
-
+<!-- This is the header for the site -->
 <header>
     <div id="brand"><a href="/">T-ether</a></div>
     <nav>
@@ -46,43 +46,56 @@
     </nav>
 
 </header>
-
+<!-- This is the Sidebar-->
 <div id="main-container">
     <div id="sidebar" class="sidebar collapsed">
         <!-- Nav tabs -->
         <div class="sidebar-tabs">
             <ul role="tablist">
+
+                <!-- This is the map tab on the sidebar-->
                 <li><a href="#Map"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill" viewBox="0 0 16 16">
                     <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
                   </svg> </a></li>
+
+                  <!-- This is the pin to map tab on the sidebar-->
                 <li><a href="#Pintomap"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-joystick" viewBox="0 0 16 16">
                     <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z"/>
                     <path d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z"/>
                   </svg> </a>
                 </li>
+
+
+                <!-- this is the Pick-up tab on the side bar-->
                 <li> <a href="#Pickup"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
                   </svg> </a>   </li>
                
+                  <!-- This is the profile tab on the side bar-->
                 <li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
+
+                <!-- This is the Collections tab on the sidebar-->
                 <li> <a href="#Collection" role="tab"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-fill" viewBox="0 0 16 16">
                     <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
                   </svg></a></li>
                 
             </ul>
 
+            <!-- This is the settings tab on the side bar-->
             <ul role="tablist">
                 <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
             </ul>
         </div>
 
-        <!-- Tab panes -->
+        <!-- Tab panes This is what you see when the tabs are opem -->
         <div class="sidebar-content">
 
-        
+        <!-- This is what you see when map tab is open-->
             <div class="sidebar-pane" id="Map">
                 <h1 class="sidebar-header">Map<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
+
+            <!--  This is what you see when pin to map tab is open-->
 
             <div class="sidebar-pane" id="Pintomap">
                 <h1 class="sidebar-header">Pin To Map<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
@@ -90,16 +103,22 @@
             
             </div>   
 
+            <!-- This is what you see when pick up tab is open -->
+
             <div class="sidebar-pane" id="Pickup">
                 <h1 class="sidebar-header">Pick-Ups<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
                 <input type = "text" id="Pickupfile"/> <button onclick= "fxn"> Pick-up </button>
             
             </div>   
 
+            <!-- this is what you see when profile tab is open -->
+
             <div class="sidebar-pane" id="profile">
                 <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
 
+
+            <!-- This is what you see when Collection tab is open-->
             <div class="sidebar-pane" id="Collection">
                 <h1 class="sidebar-header">Collection<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
@@ -112,7 +131,7 @@
 
     <div id="map" class="sidebar-map"></div>
 </div>
-<!--<a href="https://github.com/Turbo87/sidebar-v2/"><img style="position: fixed; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>-->
+
 
 <!--Scripts-->
 <script src="js/template_styles.js"> </script>
